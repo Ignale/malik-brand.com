@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: malik_shopLast-Translator: Alexey IgnatevLanguage: ru\n"
+"POT-Creation-Date: 2021-09-19 19:34+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: ;__;malik_shop;esc_html_e\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: functions.php\n"
+"X-Poedit-SearchPath-1: header-page.php\n"
+"X-Poedit-SearchPath-2: archive-post_type_dress.php\n"
+"X-Poedit-SearchPath-3: comments.php\n"
+"X-Poedit-SearchPath-4: footer.php\n"
+"X-Poedit-SearchPath-5: footer-page.php\n"
+"X-Poedit-SearchPath-6: single.php\n"
+"X-Poedit-SearchPath-7: header.php\n"
+"X-Poedit-SearchPath-8: how_works.php\n"
+"X-Poedit-SearchPathExcluded-0: languages/node_modules\n"
+
+#: archive-post_type_dress.php:37
+msgid "Watch"
+msgstr "Смотреть"
+
+#: comments.php:12
+#, php-format
+msgid "Theme without %s"
+msgstr "Тема без %s"
+
+#: comments.php:16
+#, php-format
+msgid "Please include a %s template in your theme."
+msgstr "Пожалуйста, включите %s шаблон в вашу тему."
+
+#: comments.php:39
+#, php-format
+msgid "One response to %s"
+msgstr "Один ответ к %s"
+
+#: comments.php:58
+msgid "There is no comments yet"
+msgstr "Комментариев пока нет"
+
+#: footer-page.php:11
+msgid "Menu"
+msgstr "Меню"
+
+#: footer-page.php:26
+msgid "We're on the social media"
+msgstr "Мы в социальных сетях"
+
+#: footer-page.php:59
+msgid "Subscribe"
+msgstr "Подпишись"
+
+#: footer-page.php:61
+msgid "Stay on top of the changes. Subscribe to our newsletter"
+msgstr "Будь в курсе изменений. Подпишись на нашу новостную ленту"
+
+#: footer-page.php:69
+msgid "Write and press enter"
+msgstr "Напиши и нажми enter"
+
+#: functions.php:49
+msgid "Sale"
+msgstr ""
+
+#: functions.php:141
+msgid "Decription"
+msgstr "Описание"
+
+#: functions.php:149
+msgid "Composition and care"
+msgstr "Состав и уход"
+
+#: functions.php:158
+msgid "Products's measurements"
+msgstr "Размеры товара"
+
+#: functions.php:167
+msgid "Model's measurements"
+msgstr "Размеры модели"
+
+#: functions.php:175
+msgid "Shipping and payment"
+msgstr "Оплата и доставка"
+
+#: functions.php:198
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+#: functions.php:200
+msgid "Описание продукта"
+msgstr ""
+
+#: functions.php:209
+msgid "COMPOSITION AND CARE"
+msgstr "СОСТАВ И УХОД"
+
+#: functions.php:211
+msgid "Рекомендации по уходу"
+msgstr ""
+
+#: functions.php:220
+msgid "PRODUCT'S MEASUREMENTS"
+msgstr "РАЗМЕРЫ ТОВАРА"
+
+#: functions.php:222
+msgid "Размеры"
+msgstr ""
+
+#: functions.php:231
+msgid "MODEL'S MEASUREMENTS"
+msgstr "РАЗМЕРЫ МОДЕЛИ"
+
+#: functions.php:233
+msgid "Размеры модели"
+msgstr ""
+
+#: functions.php:242
+msgid "SHIPPING AND PAYMENT"
+msgstr "ДОСТАВКА И ОПЛАТА"
+
+#: functions.php:244
+msgid "Доставка"
+msgstr ""
+
+#: functions.php:409
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr "Виджеты в этой области будут показаы во всех постах и страницах."
+
+#: functions.php:602
+msgid "Registration successful! Reloading page...."
+msgstr ""
+"Регистрация успешна,\n"
+"    Перезагрузка страницы..."
+
+#: functions.php:604
+msgid "Username or Email was not found, please try again"
+msgstr ""
+"Имя пользователя или электронная почта не были найдены, пожалуйста, "
+"попробуйте снова"
+
+#: functions.php:605
+msgid "Please wait..."
+msgstr "Пожалйста подождите..."
+
+#: functions.php:620
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+"Токен сеанса истек, пожалуйста, перезагрузите страницу и попробуйте еще раз"
+
+#: functions.php:651
+msgid "User have not been found"
+msgstr "Пользователь не был найден"
+
+#: functions.php:676 functions.php:720 functions.php:722 functions.php:744
+msgid "Login successful, reloading page..."
+msgstr ""
+"Вход успешный,\n"
+"    перезагрузка страницы..."
+
+#: header-page.php:44
+msgid "Login"
+msgstr "Вход"
+
+#: header-page.php:46
+msgid "Register"
+msgstr "Регистрация"
+
+#: header-page.php:56
+msgid "how are you&="
+msgstr "как ты&="
+
+#: header-page.php:120
+#, php-format
+msgid "Hello %s,"
+msgstr "Привет %s,"
+
+#: header.php:45
+msgid "creating style, not clothing"
+msgstr "создаем стиль, а не вещи"
+
+#: header.php:48
+msgid "start shopping"
+msgstr "в магазин"
+
+#: how_works.php:19
+msgid "Payment and delivery "
+msgstr "Оплата и доставка "
+
+#: how_works.php:22
+msgid "Internetional delivery"
+msgstr "Международная доставка"
+
+#: how_works.php:25
+msgid "Purchase returns"
+msgstr "Возврат товара"
+
+#: single.php:60
+msgid "See also"
+msgstr "Смотрите также"
+
+#: single.php:64
+msgid "Next post"
+msgstr "Следующий пост"
+
+#: single.php:65
+msgid "Previous post"
+msgstr "Предыдущий пост"
+
+#: single.php:105 single.php:106
+msgid "Name"
+msgstr "Имя"
+
+#: single.php:109
+msgid "Email"
+msgstr "Почта"
+
+#: single.php:110
+msgid "E-mail"
+msgstr "Почта"
+
+#: single.php:113
+msgid "Website"
+msgstr "Сайт"
+
+#: single.php:114
+msgid "Web site"
+msgstr "Сайт"
+
+#: single.php:118
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr "Сохранить мое имя, почту и сайт в браузере для следующего раза."
+
+#: single.php:123
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: single.php:126
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a> чтобы оставить комментарий."
+
+#: single.php:129
+#, php-format
+msgid ""
+"<a class= \"btn btn--primary \" href=\"%1$s\" aria-label=\"Logged in as "
+"%2$s. Edit your profile.\">Logged in as %2$s</a>. <a class=\"btn\" href="
+"\"%3$s\">Logout?</a>"
+msgstr ""
+"<a class= \"btn btn--primary \" href=\"%1$s\" aria-label=\"Вы зашли как "
+"%2$s. Редактировать профиль.\">Вы зашли как %2$s</a>. <a class=\"btn\" href="
+"\"%3$s\">Выйти?</a>"
+
+#: single.php:138
+msgid "Leave a Reply"
+msgstr "Ответить"
+
+#: single.php:139
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Ответить  %s"
+
+#: single.php:141
+msgid "Your email address will not be published"
+msgstr "Ваш адрес электронной почты не будет опубликован"
+
+#: single.php:144
+msgid "Cancel reply"
+msgstr "Отменить"
+
+#: single.php:145
+msgid "Post Comment"
+msgstr "Оставить комментарий"
+
+#~ msgid "hello "
+#~ msgstr "Привет"
+
+#~ msgid "Мы в социальных сетях"
+#~ msgstr "We're in the social media"
+
+#~ msgid "Оставайся в курсе изменений. Подпишись на наши новости"
+#~ msgstr "Stay on top of the changes. Subscribe to our newsletter"
+
+#~ msgid "Напиши и нажми enter"
+#~ msgstr "Write and press enter"
+
+#~ msgid "Подпишись"
+#~ msgstr "Subscribe"

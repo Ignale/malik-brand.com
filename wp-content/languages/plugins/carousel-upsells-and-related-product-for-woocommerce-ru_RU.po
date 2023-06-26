@@ -1,0 +1,698 @@
+# Translation of Plugins - Carousel Upsells and Related Product for Woocommerce - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Carousel Upsells and Related Product for Woocommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-12 20:59:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Carousel Upsells and Related Product for Woocommerce - Stable (latest release)\n"
+
+#: includes/option_plugin_related.php:408
+#: includes/option_plugin_upsells.php:394
+msgid "This can help if for some reason the wp_footer hook is overridden or missing. You can also set this parameter by default for more successful page optimization (increases PageSpeed ​​Insights)."
+msgstr "Это может помочь, если по какой-то причине хук wp_footer переопределен или отсутствует. Вы также можете установить этот параметр по умолчанию для более успешной оптимизации страницы (может увеличить показатели PageSpeed ​​Insights)."
+
+#: includes/option_plugin_related.php:407
+#: includes/option_plugin_upsells.php:393
+msgid "Initialize JS after loading the whole page"
+msgstr "Инициализировать JS только после загрузки всей страницы"
+
+#: includes/option_plugin_related.php:403
+#: includes/option_plugin_upsells.php:389
+msgid "Initialize JS carousel"
+msgstr "Инициализация JS"
+
+#: includes/up-sells.php:110 includes/related.php:112
+msgid "Swipe carousel to the left or to the right while holding your finger on the display."
+msgstr "Проведите карусель влево или вправо, удерживая палец на дисплее."
+
+#: includes/option_plugin_upsells.php:384
+msgid "Apply filter <code>woocommerce_upsell_display_args()</code> with higher priority"
+msgstr "Применить фильтр <code>woocommerce_upsell_display_args()</code> с более высоким приоритетом"
+
+#: includes/option_plugin_upsells.php:375
+msgid "It may also be that your template already has settings for Up-Sells and they simply are not configured. For example, in some templates there is a parameter in the settings that allows you to set the number of displayed products - in this case, it will be enough just to set the correct amount. However, you can always try to apply one of the functions below."
+msgstr "Также может быть, что в вашей теме уже есть параметры для рекомендуемых товаров и они просто не настроены. Например, в некоторых шаблонах в настройках есть параметр, позволяющий установить количество отображаемых товаров - в этом случае достаточно будет просто указать правильное количество. Тем не менее, вы всегда можете попробовать применить одну из функций ниже."
+
+#: includes/option_plugin_upsells.php:375
+msgid "What if recommended products (Up-Sells) do not work in your template? This can be for various reasons, it is possible that your template implements a custom function for Up-Sells or applies a specific filter. Be sure to write to the user support forum and report a problem. If we can identify the problem, then we will add a number of fixes specifically for your template."
+msgstr "Как быть если рекомендуемые товары(апсейлы) не работают в вашем шаблоне? Это может происходить по разным причинам, возможно, в вашей теме реализована пользовательская функция для рекомендуемых товаров или применяется определенный фильтр. Обязательно напишите на форум поддержки пользователей и сообщите о проблеме с указанием названия вашей темы. Если мы сможем идентифицировать проблему, мы добавим ряд исправлений специально для вашего шаблона."
+
+#: includes/option_plugin_upsells.php:373
+msgid "If not work Up-Sells products"
+msgstr "Если не работают рекомендуемые товары"
+
+#: includes/option_plugin_related.php:399
+msgid "Some templates override this function and assign the number of related products. If you use this parameter, the function will be overridden, and using the plugin you can control the number of products. We cannot guarantee stable operation using this parameter in your template, but in some cases it helps."
+msgstr "Некоторые шаблоны переопределяют эту функцию и назначают количество похожих товаров. Если вы используете данный параметр, функция будет переопределена и с помощью плагина вы сможете контролировать количество товаров. Мы не можем гарантировать стабильную работу настроек в вашей теме в том случае если вы используете этот параметр, но в некоторых случаях это поможет решить проблему."
+
+#: includes/option_plugin_related.php:398
+msgid "Override <code>woocommerce_output_related_products()</code> direct function"
+msgstr "Переопределить функцию <code>woocommerce_output_related_products()</code>"
+
+#: includes/option_plugin_related.php:394
+msgid "Overwrite WooCommerce template function"
+msgstr "Перезаписать функцию шаблона WooCommerce"
+
+#: includes/option_plugin_related.php:390
+#: includes/option_plugin_upsells.php:385
+msgid "Applying this option can help fix the carousel if this filter is used in your template. If this parameter is used, a filter will be applied that uses your template, but with a higher priority. Please note that we cannot guarantee the correct operation with the settings \"Number of sales sold\" or \"Up-Sells Count\" in your template, these parameters will be overridden by the plugin."
+msgstr "Применение этой опции может помочь исправить карусель, если этот фильтр используется в вашем шаблоне. Если этот параметр используется, будет применен фильтр, который использует ваш шаблон, но с более высоким приоритетом. Обратите внимание, что мы не можем гарантировать стабильную работу с настройками «Количество рекомендуемых товаров» в вашей теме, эти параметры будут переопределены плагином."
+
+#: includes/option_plugin_related.php:389
+msgid "Apply filter <code>woocommerce_output_related_products_args()</code> with higher priority"
+msgstr "Применить фильтр <code>woocommerce_output_related_products_args()</code> с более высоким приоритетом"
+
+#: includes/option_plugin_related.php:385
+#: includes/option_plugin_upsells.php:380
+msgid "Apply higher priority filter"
+msgstr "Применить фильтр с более высоким приоритетом"
+
+#: includes/option_plugin_related.php:380
+msgid "It may also be that your template already has settings for related products, and they simply are not configured. For example, in some templates in the settings there is a parameter that allows you to set the number of displayed products - in this case, it will be enough just to specify the correct quantity in the settings of your template. However, you can always try to apply one of the functions below."
+msgstr "Также может быть, что в вашем шаблоне уже есть настройки для похожих товаров, и они просто не настроены. Например, в некоторых темах, в настройках есть параметр, позволяющий установить количество отображаемых товаров - в этом случае будет достаточно просто указать правильное количество, в настройках вашего шаблона. Тем не менее, вы всегда можете попробовать применить одну из функций ниже."
+
+#: includes/option_plugin_related.php:380
+msgid "What if related ones do not work in your template? This can happen for various reasons, perhaps your template implements a custom function for related products or applies a certain filter. Be sure to write to the user support forum and report a problem. If we can identify the problem, we will add a number of fixes specifically for your template."
+msgstr "Что делать, если похожие товары не работают в вашей теме? Это может произойти по разным причинам, возможно, ваш шаблон использует пользовательскую функцию для связанных продуктов или применяет определенный фильтр. Обязательно напишите на форум поддержки пользователей и сообщите о проблеме. Если мы сможем идентифицировать проблему, мы добавим ряд исправлений специально для вашей темы."
+
+#: includes/option_plugin_related.php:378
+msgid "If not work releted products"
+msgstr "Если не работают похожие товары"
+
+#: ffxf-woo-glide-related-and-upsells.php:523
+msgid "pixels wide"
+msgstr "пикселей в ширину"
+
+#: ffxf-woo-glide-related-and-upsells.php:523
+msgid "Gaps between slides should be"
+msgstr "Укажите отступ между товарами "
+
+#: ffxf-woo-glide-related-and-upsells.php:490
+msgid "A gap size is added between the slides. This window works as an example."
+msgstr "Размер промежутка добавляется между вашими товарами. Это окно работает в качестве примера, после тестирования обязательно сохраните настройки. "
+
+#: ffxf-woo-glide-related-and-upsells.php:478
+msgid "milliseconds"
+msgstr "миллисекунд"
+
+#: ffxf-woo-glide-related-and-upsells.php:478
+msgid "Duration of the animation have be"
+msgstr "Укажите продолжительность анимации "
+
+#: ffxf-woo-glide-related-and-upsells.php:433
+msgid "timing function"
+msgstr " (стилевое свойство)"
+
+#: ffxf-woo-glide-related-and-upsells.php:425
+msgid "Ease moving animation with"
+msgstr "Укажите анимацию перехода для теста "
+
+#: ffxf-woo-glide-related-and-upsells.php:393
+#: ffxf-woo-glide-related-and-upsells.php:445
+msgid "See in action how this animation works, and leave the one you like."
+msgstr "Посмотрите в действии как работает эта анимация. Это ДЕМО просмотр, поэтому вам потребуется сохранить понравившуюся анимацию в общих настройках. "
+
+#: ffxf-woo-glide-related-and-upsells.php:381
+msgid "on right side"
+msgstr "отступ справа"
+
+#: ffxf-woo-glide-related-and-upsells.php:381
+msgid "pixels on the left and"
+msgstr "в пикселях и"
+
+#: ffxf-woo-glide-related-and-upsells.php:381
+msgid "Peek"
+msgstr "Отступ слева"
+
+#: ffxf-woo-glide-related-and-upsells.php:348
+msgid "You can crop the carousel left or right.<br>Do not forget that this is a demo mode and the data entered in these fields is not saved anywhere."
+msgstr "Вы можете обрезать карусель слева или справа. <br>Не забывайте, что это ДЕМО режим, и данные, введенные именно в эти поля не сохраняются."
+
+#: ffxf-woo-glide-related-and-upsells.php:326
+msgid "Thanks for attention!"
+msgstr "Спасибо за внимание!"
+
+#: ffxf-woo-glide-related-and-upsells.php:324
+msgid "Do not forget to configure the carousel on the mobile version of the site in the general settings."
+msgstr "Не забудьте настроить карусель на мобильной версии сайта в общих настройках."
+
+#: ffxf-woo-glide-related-and-upsells.php:322
+msgid "The central mode includes carousel trimming left and right."
+msgstr "Центральный режим включает обрезку карусели слева и справа."
+
+#: ffxf-woo-glide-related-and-upsells.php:320
+msgid "When you enable this option, you can set the left and right indentation value in pixels."
+msgstr "Когда вы включите эту опцию, вы можете установить левое и правое значение отступа в пикселях."
+
+#: includes/option_plugin_related.php:65
+msgid "Some templates use their own related products, so this carousel may not work. If so, check the box. Nevertheless, we want to make the plugin better, write to us about it on the user support forum, and also indicate the full name of the topic so that it works correctly. We will try to adapt the carousel specifically for your template.<br><br><b>However, other visible settings may work</b>. "
+msgstr "Некоторые темы используют свои собственные похожие товары, поэтому эта карусель может не работать. Если это так, установите флажок. Тем не менее, мы хотим сделать плагин лучше, напишите нам об этом на форуме поддержки пользователей, а также укажите полное название темы, чтобы мы могли идентифицировать проблему. Мы постараемся адаптировать карусель специально для вашей темы.<br><br><b>Другие видимые настройки могут работать</b>,"
+
+#. translators: %s: default color
+#: includes/option_plugin_related.php:363
+#: includes/option_plugin_upsells.php:358
+msgid "The default color is soft black #333333"
+msgstr "Цвет по умолчанию - мягкий черный # 333333"
+
+#: includes/option_plugin_related.php:361
+#: includes/option_plugin_upsells.php:356
+msgid "Arrows background"
+msgstr "Фон кнопки навигации"
+
+#: includes/option_plugin_related.php:331
+#: includes/option_plugin_upsells.php:326
+msgid "Navigation icons"
+msgstr "Навигационные иконки"
+
+#: includes/option_plugin_related.php:327
+#: includes/option_plugin_upsells.php:322
+msgid "click DEMO link"
+msgstr "нажмите на эту ссылку ДЕМО"
+
+#: includes/option_plugin_related.php:327
+#: includes/option_plugin_upsells.php:322
+msgid "A size of the gap added between slides. If you want to test how it works, "
+msgstr "Размер зазора будет добавлен между слайдами. Если вы хотите проверить, как это работает,"
+
+#: includes/option_plugin_related.php:317
+#: includes/option_plugin_upsells.php:312
+msgid "The default is 10. Measured in pixels."
+msgstr "По умолчанию 10. Измеряется в пикселях."
+
+#: includes/option_plugin_related.php:316
+#: includes/option_plugin_upsells.php:311
+msgid "Size of the gap"
+msgstr "Отступ между товарами"
+
+#: includes/option_plugin_related.php:311
+#: includes/option_plugin_upsells.php:306
+msgid "click on the DEMO link"
+msgstr "нажмите на эту ссылку ДЕМО"
+
+#: includes/option_plugin_related.php:311
+#: includes/option_plugin_upsells.php:306
+msgid "You can customize the time of the carousel scroll transition animation. In order to see in action, "
+msgstr "Вы можете настроить время анимации перехода прокрутки карусели. Чтобы увидеть в действии,"
+
+#: includes/option_plugin_related.php:301
+#: includes/option_plugin_upsells.php:296
+msgid "The default is 400. Measured in milliseconds."
+msgstr "Значение по умолчанию - 400. Измеряется в миллисекундах."
+
+#: includes/option_plugin_related.php:300
+#: includes/option_plugin_upsells.php:295
+msgid "Animation Duration"
+msgstr "Длительность анимации"
+
+#: includes/option_plugin_related.php:294
+#: includes/option_plugin_upsells.php:289
+msgid "bounce"
+msgstr "bounce"
+
+#: includes/option_plugin_related.php:293
+#: includes/option_plugin_upsells.php:288
+msgid "ease-in-out"
+msgstr "ease-in-out"
+
+#: includes/option_plugin_related.php:292
+#: includes/option_plugin_upsells.php:287
+msgid "ease-out"
+msgstr "ease-out"
+
+#: includes/option_plugin_related.php:291
+#: includes/option_plugin_upsells.php:286
+msgid "ease-in"
+msgstr "ease-in"
+
+#: includes/option_plugin_related.php:290
+#: includes/option_plugin_upsells.php:285
+msgid "ease"
+msgstr "ease"
+
+#: includes/option_plugin_related.php:289
+#: includes/option_plugin_upsells.php:284
+msgid "linear"
+msgstr "linear"
+
+#: includes/option_plugin_related.php:288
+#: includes/option_plugin_upsells.php:283
+msgid "default"
+msgstr "по умолчанию"
+
+#: includes/option_plugin_related.php:285
+#: includes/option_plugin_upsells.php:280
+msgid "and select the desired animation"
+msgstr "и затем выбрать желаемую анимацию"
+
+#: includes/option_plugin_related.php:285
+#: includes/option_plugin_upsells.php:280
+msgid "DEMO mode right here"
+msgstr "ДЕМО режим прямо тут"
+
+#: includes/option_plugin_related.php:285
+#: includes/option_plugin_upsells.php:280
+msgid "Animation slide transition, there are several. You can watch the"
+msgstr "Анимация слайдов перехода, их несколько. Вы можете посмотреть"
+
+#: includes/option_plugin_related.php:279
+#: includes/option_plugin_upsells.php:274
+msgid "Transition Animation"
+msgstr "Анимация перехода"
+
+#: includes/option_plugin_related.php:264
+#: includes/option_plugin_upsells.php:259
+msgid "Peek right"
+msgstr "Отступ справа"
+
+#: includes/option_plugin_related.php:260
+#: includes/option_plugin_related.php:275
+#: includes/option_plugin_upsells.php:255
+#: includes/option_plugin_upsells.php:270
+msgid "The value must be no more than 100."
+msgstr "Значение должно быть не более 100."
+
+#: includes/option_plugin_related.php:250
+#: includes/option_plugin_related.php:265
+#: includes/option_plugin_related.php:284
+#: includes/option_plugin_upsells.php:245
+#: includes/option_plugin_upsells.php:260
+#: includes/option_plugin_upsells.php:279
+msgid "This setting depends on the central mode. It works in pixels, but accuracy may not match due to the layout of your theme."
+msgstr "Этот параметр зависит от центрального режима. Он работает в пикселях, но точность может не совпадать из-за разметки вашей темы."
+
+#: includes/option_plugin_related.php:249
+#: includes/option_plugin_upsells.php:244
+msgid "Peek left"
+msgstr "Отступ слева"
+
+#: includes/option_plugin_related.php:245
+#: includes/option_plugin_upsells.php:240
+msgid "Enable central mode on mobile device only."
+msgstr "Включить центральный режим только на мобильном устройстве."
+
+#: includes/option_plugin_related.php:244
+#: includes/option_plugin_upsells.php:239
+msgid "See how it looks"
+msgstr "Посмотрите, как это выглядит"
+
+#: includes/option_plugin_related.php:244
+#: includes/option_plugin_upsells.php:239
+msgid "If this option is enabled, then the central mode will be applied only on the mobile device, ignoring other permissions. We also recommend installing 1 product on the mobile resolution."
+msgstr "Если эта опция включена, то центральный режим будет применяться только на мобильном устройстве, игнорируя другие разрешения. Также рекомендуем установить отображение 1 продукта на мобильном разрешении."
+
+#: includes/option_plugin_related.php:239
+#: includes/option_plugin_upsells.php:234
+msgid "Center mode in mobile"
+msgstr "Центр на мобильном"
+
+#: includes/option_plugin_related.php:235
+#: includes/option_plugin_upsells.php:230
+msgid "Trims the carousel around the edges showing part of the next slide."
+msgstr "Обрезает карусель по краям, показывая часть следующего слайда."
+
+#: includes/option_plugin_related.php:234
+#: includes/option_plugin_upsells.php:229
+msgid "DEMO setting Center Mode"
+msgstr "ДЕМО центрального режима"
+
+#: includes/option_plugin_related.php:234
+#: includes/option_plugin_upsells.php:229
+msgid "If you want to see live how it works without leaving the plugin settings then click on this link - "
+msgstr "Если вы хотите увидеть, как он работает, не выходя из настроек плагина, нажмите на эту ссылку -"
+
+#: includes/option_plugin_related.php:234
+#: includes/option_plugin_upsells.php:229
+msgid "click on this link"
+msgstr "нажмите на эту ссылку"
+
+#: includes/option_plugin_related.php:234
+#: includes/option_plugin_upsells.php:229
+msgid "Trim the edges of the carousel. For more information on this feature,"
+msgstr "Обрежьте края карусели. Для получения дополнительной информации об этой функции,"
+
+#: includes/option_plugin_related.php:229
+#: includes/option_plugin_upsells.php:224
+msgid "Center mode"
+msgstr "Центральный режим"
+
+#: includes/option_plugin_related.php:224
+#: includes/option_plugin_upsells.php:219
+msgid "Set up your carousel for related products. We tried to give all the necessary tips right in the settings. You can set the central mode, navigation, transition animation, and more."
+msgstr "Настройте свою карусель похожих товаров. Мы постарались дать все необходимые советы прямо в настройках. Вы можете установить центральный режим, навигацию, анимацию перехода и многое другое."
+
+#: includes/option_plugin_related.php:222
+#: includes/option_plugin_upsells.php:217
+msgid "Additional carousel settings"
+msgstr "Дополнительные настройки карусели"
+
+#. translators: %s: default color
+#: includes/option_plugin_related.php:206
+#: includes/option_plugin_upsells.php:201
+msgid "The default color is soft black #333333. Color applies to the icon, frame and text."
+msgstr "Цвет по умолчанию - мягкий черный # 333333. Цвет относится к значку, рамке и тексту."
+
+#: includes/option_plugin_related.php:204
+#: includes/option_plugin_upsells.php:199
+msgid "Color mobile notification"
+msgstr "Цвет мобильной подсказки"
+
+#: includes/option_plugin_related.php:200
+#: includes/option_plugin_upsells.php:195
+msgid "Enable notifications for mobile devices."
+msgstr "Включить подсказку для мобильных устройств."
+
+#: includes/option_plugin_related.php:199
+#: includes/option_plugin_upsells.php:194
+msgid "See an example and details"
+msgstr "Смотрите примеры и подробности"
+
+#: includes/option_plugin_related.php:199
+#: includes/option_plugin_upsells.php:194
+msgid "Mobile notification appears only on mobile devices with a hint that you can scroll the carousel with your finger."
+msgstr "Подсказка появляется только на мобильных устройствах и говорит о том, что вы можете прокрутить карусель путем касания."
+
+#: includes/option_plugin_related.php:194
+#: includes/option_plugin_upsells.php:189
+msgid "Mobile notification"
+msgstr "Мобильная подсказка"
+
+#: includes/option_plugin_upsells.php:22
+msgid "Upsells Product Carousel"
+msgstr "Карусель рекомендуемых"
+
+#: ffxf-woo-glide-related-and-upsells.php:128
+msgid "Thanks for the update! Do not forget to update the plugin in time in order to get a better plugin <b>\"Carousel Upsells and Related Product for Woocommerce\"</b> without errors and with new functionality."
+msgstr "Спасибо за обновление! Не забудьте своевременно обновить плагин, чтобы получить более качественный плагин<b>\"Carousel Upsells and Related Product for Woocommerce\"</b> без ошибок и с новой функциональностью."
+
+#: includes/ffxf_related_and_upsells_rate.php:32
+msgid "Leave feedback"
+msgstr "Оставить отзыв"
+
+#: includes/ffxf_related_and_upsells_rate.php:28
+msgid "Remind me later"
+msgstr "Напомнить позже"
+
+#: includes/ffxf_related_and_upsells_rate.php:24
+msgid "I have already left a review!"
+msgstr "Я уже оставил отзыв!"
+
+#: includes/ffxf_related_and_upsells_rate.php:18
+msgid "Please rate plugin. It will help us a lot."
+msgstr "Пожалуйста, оцените плагин. Это нам очень поможет."
+
+#: includes/ffxf_related_and_upsells_rate.php:16
+msgid "We are very pleased that you are using the <b>Carousel Upsells and Related Product for Woocommerce</b> plugin within a few days."
+msgstr "Мы очень рады, что вы используете <b>«Carousel Upsells and Related Product for Woocommerce»</b> в течение нескольких дней."
+
+#: includes/ffxf_related_and_upsells_rate.php:15
+msgid "Hello!"
+msgstr "Здравствуйте!"
+
+#: ffxf-woo-glide-related-and-upsells.php:643
+msgid "Thank you very much!<br>Remember to make updates when it is available."
+msgstr "Большое спасибо!<br>Не забывайте обновлять плагин, когда будет доступное новое обновление."
+
+#. Author of the plugin
+msgid "Dan Zakirov"
+msgstr "Dan Zakirov"
+
+#: ffxf-woo-glide-related-and-upsells.php:607
+msgid "You can make a donation to make the plugin Carousel Upsells and Related Product for Woocommerce even better!"
+msgstr "Вы можете сделать пожертвование, чтобы сделать плагин  Carousel Upsells and Related Product for Woocommerce еще лучше!"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/carousel-upsells-and-related-product-for-woocommerce/"
+msgstr "https://wordpress.org/plugins/carousel-upsells-and-related-product-for-woocommerce/"
+
+#: includes/option_plugin_upsells.php:111
+msgid "Quantity Upsells"
+msgstr "Кол-во товаров"
+
+#: includes/option_plugin_upsells.php:60
+msgid "You can disable the carousel and use the standard features of WordPress upsells products. <b>However, other visible settings may work</b>."
+msgstr "Вы можете отключить карусель и использовать стандартные функции Woocommerce. <b>Однако другие видимые настройки могут работать</b>."
+
+#: includes/option_plugin_upsells.php:55
+msgid "Disable carousel upsells"
+msgstr "Отключить карусель апсейлов"
+
+#: includes/option_plugin_upsells.php:48
+msgid "General Setting Upsells Products"
+msgstr "Главные настройки рекомендуемых товаров (апсейлов)"
+
+#: includes/option_plugin_related.php:116
+msgid "Quantity Related"
+msgstr "Кол-во похожих"
+
+#: includes/option_plugin_related.php:66 includes/option_plugin_upsells.php:61
+msgid "Disable carousel and return to standard function Woocommerce"
+msgstr "Отключить карусель, но при этом будут работать стандартные функции Woocommerce"
+
+#: includes/option_plugin_related.php:60
+msgid "Disable carousel related"
+msgstr "Отключить карусель похожих"
+
+#: includes/option_plugin_related.php:55 includes/option_plugin_upsells.php:50
+msgid "On this page you can customize the carousel for similar products."
+msgstr "На этой странице вы можете настроить карусель для похожих товаров."
+
+#: includes/option_plugin_related.php:53
+msgid "General Setting Related Products"
+msgstr "Главные настройки похожих товаров"
+
+#: ffxf-woo-glide-related-and-upsells.php:616
+msgid "Leave feedback on the official repository"
+msgstr "Пожалуйста, поддержите нас оставив отзыв о плагине"
+
+#: ffxf-woo-glide-related-and-upsells.php:615
+msgid "To donate"
+msgstr "Поддержать"
+
+#: ffxf-woo-glide-related-and-upsells.php:609
+msgid "Choose how much you want to donate?"
+msgstr "Выберите, сколько вы хотите пожертвовать?"
+
+#: ffxf-woo-glide-related-and-upsells.php:605
+msgid "Donate to development"
+msgstr "Поддержать разработчика"
+
+#: ffxf-woo-glide-related-and-upsells.php:589
+msgid "Art Woocommerce Custom Sale"
+msgstr "Art Woocommerce Custom Sale"
+
+#: ffxf-woo-glide-related-and-upsells.php:582
+msgid "LuckyWP Scripts Control"
+msgstr "LuckyWP Scripts Control"
+
+#: ffxf-woo-glide-related-and-upsells.php:575
+msgid "Art WooCommerce Order One Click"
+msgstr "Art WooCommerce Order One Click"
+
+#: ffxf-woo-glide-related-and-upsells.php:568
+msgid "Easy Auto SKU Generator for WooCommerce"
+msgstr "Easy Auto SKU Generator for WooCommerce"
+
+#: ffxf-woo-glide-related-and-upsells.php:563
+msgid "Let me recommend some plugins that can provide the greatest conversion for your store."
+msgstr "Мы можем вам порекомендовать некоторые плагины, которые могут обеспечить наибольшую конверсию для вашего магазина."
+
+#: ffxf-woo-glide-related-and-upsells.php:562
+msgid "Recommended Plugins"
+msgstr "Рекомендуемые плагины"
+
+#: ffxf-woo-glide-related-and-upsells.php:550
+msgid "Some functions will be available only in the professional version of the plugin. The most active installers and testers are waiting gifts – pro version the plugin \"Carousel Upsells and Related Product for Woocommerce\"."
+msgstr "Некоторые функции будут доступны только в профессиональной версии плагина. Самые активные инсталляторы и тестеры ждут подарков - профессиональная версия плагина \"Carousel Upsells and Related Product for Woocommerce\"."
+
+#: ffxf-woo-glide-related-and-upsells.php:549
+msgid "We are actively working on the plugin and soon new parameters will appear that will allow you to comfortably customize the carousel for your site design."
+msgstr "Мы активно работаем над плагином, и вскоре появятся новые параметры, которые позволят вам удобно настроить карусель под дизайн вашего сайта."
+
+#: ffxf-woo-glide-related-and-upsells.php:548
+msgid "As we have already said, this plugin and, in particular, similar products may not be compatible with your theme. This is especially true of premium topics where custom output of similar products is implemented. If something does not work, we will be very grateful if you report this to the user <a href=\"https://wordpress.org/support/plugin/carousel-upsells-and-related-product-for-woocommerce/#new-post\" target=\"_blank\">this topic forum</a>"
+msgstr "Как мы уже говорили, этот плагин, в частности, похожие продукты могут быть несовместимы с вашей темой. Это в большей степени актуально для премиальных шаблонов, в которых реализован пользовательский вывод похожих товаров. Если у вас что-то не работает, мы будем очень благодарны, если вы сообщите об этом на официальный форум <a href=\"https://wordpress.org/support/plugin/carousel-upsells-and-related-product-for-woocommerce/#new-post\" target=\"_blank\">поддержки пользователей</a>"
+
+#: ffxf-woo-glide-related-and-upsells.php:547
+msgid "Message from the author"
+msgstr "Сообщение от автора"
+
+#: ffxf-woo-glide-related-and-upsells.php:276
+msgid "Set up your related upsells carousel here"
+msgstr "Настройте карусель рекомендуемых товаров или апсейлов на этой странице"
+
+#: ffxf-woo-glide-related-and-upsells.php:275
+msgid "Set up your related product carousel here"
+msgstr "Настройте карусель похожих товаров на этой странице"
+
+#: includes/option_plugin_related.php:23
+msgid "Related Product Carousel"
+msgstr "Карусель похожих товаров"
+
+#: includes/option_plugin_upsells.php:122
+msgid "The total number of products in the carousel of upsells products"
+msgstr "Общее количество в карусели рекомендуемых товаров (апсейлов)"
+
+#: includes/option_plugin_upsells.php:78
+msgid "You can set additional options - these are time intervals for scrolling and stop hovering<br>If enabled, the carousel of upsells products will be scrolled with a certain time interval, which you can also set"
+msgstr "Вы можете установить дополнительный параметр - это временной интервал прокрутки и стоп при наведении.<br>Если этот параметр включен, то карусель товаров, будет прокручиваться с определенным интервалом времени автоматически. Сам интервал времени так же можно настроить."
+
+#: includes/option_plugin_upsells.php:72
+msgid "The title of this section will be displayed above the carousel.<br>Replaces the standard phrase of upsells products"
+msgstr "Заголовок этого раздела будет отображаться над каруселью. <br> Заменяет стандартную фразу."
+
+#: includes/option_plugin_upsells.php:69
+msgid "If the field is empty then the title tag will not be displayed, it will just be a carousel of upsells products"
+msgstr "Если поле не заполнено, тег заголовка не будет отображаться, это будет просто карусель продуктов без заголовка"
+
+#: ffxf-woo-glide-related-and-upsells.php:535
+msgid "Settings Upsells Products Carousel"
+msgstr "Настройки карусели апсейлов"
+
+#: includes/option_plugin_related.php:190
+#: includes/option_plugin_upsells.php:185
+msgid "Adaptability setting on mobile displays. Enter the number of products displayed"
+msgstr "Настройка адаптивности на мобильных дисплеях. Введите количество отображаемых продуктов"
+
+#: includes/option_plugin_related.php:178
+#: includes/option_plugin_upsells.php:173
+msgid "Mobile displays"
+msgstr "Мобильные устройства"
+
+#: includes/option_plugin_related.php:174
+#: includes/option_plugin_upsells.php:169
+msgid "Adaptability setting on tablet screens. Enter the number of products displayed"
+msgstr "Настройка адаптивности на экранах планшетов. Введите количество отображаемых продуктов"
+
+#: includes/option_plugin_related.php:162
+#: includes/option_plugin_upsells.php:157
+msgid "Tablet displays"
+msgstr "Для планшетов"
+
+#: includes/option_plugin_related.php:158
+#: includes/option_plugin_upsells.php:153
+msgid "Adaptability adjustment on large monitors. Enter the number of products displayed"
+msgstr "Регулировка адаптивности на больших мониторах. Введите количество отображаемых продуктов"
+
+#: includes/option_plugin_related.php:146
+#: includes/option_plugin_upsells.php:141
+msgid "Large monitors"
+msgstr "Большие мониторы"
+
+#: includes/option_plugin_related.php:142
+#: includes/option_plugin_upsells.php:137
+msgid "Set the optimal value based on the design of your template"
+msgstr "Установите оптимальное значение в зависимости от дизайна вашего шаблона"
+
+#: includes/option_plugin_related.php:132
+#: includes/option_plugin_related.php:147
+#: includes/option_plugin_related.php:163
+#: includes/option_plugin_related.php:179
+#: includes/option_plugin_upsells.php:127
+#: includes/option_plugin_upsells.php:142
+#: includes/option_plugin_upsells.php:158
+#: includes/option_plugin_upsells.php:174
+msgid "Most templates use a grid of 3 or 4 products. By default, 4 items are displayed in the carousel. You can change this number."
+msgstr "Большинство шаблонов используют сетку из 3-х или 4-х товаров. По умолчанию 4 элемента отображаются в карусели. Вы можете изменить этот параметр."
+
+#: includes/option_plugin_related.php:131
+#: includes/option_plugin_upsells.php:126
+msgid "Number of Visible Products"
+msgstr "Кол-во видимых товаров"
+
+#: includes/option_plugin_related.php:127
+msgid "The total number of products in the carousel of related products"
+msgstr "Общее количество товаров в карусели похожих товаров"
+
+#: includes/option_plugin_related.php:117
+#: includes/option_plugin_upsells.php:112
+msgid "We recommend setting an average of about 12 common products for a more optimized carousel. The more products you demonstrate, the more system resources are consumed."
+msgstr "Мы рекомендуем установить в среднем около 12 товаров для более оптимизированной карусели. Чем больше товаров вы демонстрируете, тем больше системных ресурсов расходуется."
+
+#: includes/option_plugin_related.php:112
+#: includes/option_plugin_upsells.php:107
+msgid "This is the time interval with which the carousel will change products"
+msgstr "Это интервал времени, между которым карусель будет менять товары"
+
+#: includes/option_plugin_related.php:102 includes/option_plugin_upsells.php:97
+msgid "Time is set in milliseconds. Recommended time 3000 they are 3 seconds"
+msgstr "Время устанавливается в миллисекундах. Рекомендуемое время 3000 они же 3 секунды"
+
+#: includes/option_plugin_related.php:101 includes/option_plugin_upsells.php:96
+msgid "Time interval"
+msgstr "Временной интервал"
+
+#: includes/option_plugin_related.php:97 includes/option_plugin_upsells.php:92
+msgid "Bring to a stop on hover"
+msgstr "Остановить при наведении"
+
+#: includes/option_plugin_related.php:96 includes/option_plugin_upsells.php:91
+msgid "If checked, the carousel will be paused on hover"
+msgstr "Если отмечено, карусель будет приостановлена при наведении"
+
+#: includes/option_plugin_related.php:91 includes/option_plugin_upsells.php:86
+msgid "Hover Stop"
+msgstr "Стоп при наведении"
+
+#: includes/option_plugin_related.php:83
+msgid "You can set additional options - these are time intervals for scrolling and stop hovering.<br>If enabled, the carousel of related products will be scrolled with a certain time interval, which you can also set"
+msgstr "Вы можете установить дополнительные параметры - это временной интервал для авто-прокрутки.<br>Если включено, то карусель товаров будет прокручиваться с определенным интервалом времени, который вы также можете установить"
+
+#: includes/option_plugin_related.php:82 includes/option_plugin_upsells.php:77
+msgid "Enable autoplay"
+msgstr "Включить атопрокрутку"
+
+#: includes/option_plugin_related.php:81 includes/option_plugin_upsells.php:76
+msgid "Autoplay"
+msgstr "Автопрокрутка"
+
+#: includes/option_plugin_related.php:77
+msgid "The title of this section will be displayed above the carousel.<br>Replaces the standard phrase of related products"
+msgstr "Заголовок этого значения будет отображаться над каруселью. <br> Заменяет стандартную фразу похожих товаров."
+
+#: includes/option_plugin_related.php:74
+msgid "If the field is empty then the title tag will not be displayed, it will just be a carousel of related products"
+msgstr "Если поле не заполнено, тег заголовка не будет отображаться, это будет просто карусель товаров без заголовка"
+
+#: includes/option_plugin_related.php:70 includes/option_plugin_upsells.php:65
+msgid "Section header"
+msgstr "Заголовок секции"
+
+#: ffxf-woo-glide-related-and-upsells.php:533
+msgid "Settings Related Products Carousel"
+msgstr "Настройки карусели похожих товаров"
+
+#: ffxf-woo-glide-related-and-upsells.php:251
+#: ffxf-woo-glide-related-and-upsells.php:274
+msgid "Setting Upsells Carousel"
+msgstr "Настройка карусели апсейлов"
+
+#: ffxf-woo-glide-related-and-upsells.php:251
+#: ffxf-woo-glide-related-and-upsells.php:273
+msgid "Setting Related Carousel"
+msgstr "Настройка карусели похожих"
+
+#: includes/option_plugin_upsells.php:67
+#: ffxf-woo-glide-related-and-upsells.php:76
+msgid "You may also like…"
+msgstr "Рекомендуемые товары..."
+
+#: ffxf-woo-glide-related-and-upsells.php:65
+msgid "Related products"
+msgstr "Похожие товары"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/alexodiy/"
+msgstr "https://profiles.wordpress.org/alexodiy/"
+
+#. Description of the plugin
+msgid "The plugin replaces the standard related and upsells products on carousel using a script glide.js that does not depend on the jquery, which much faster than its analogues. Just activate the plugin!"
+msgstr "Плагин заменяет стандартные похожие и рекомендуемые(апсейлы) товары на карусели с помощью скрипта glide.js, который не имеет зависимостей от jQuery, а это значит, что скорость загрузки карусели значительно быстрее других аналогов слайдер-каруселей. Просто активируйте плагин!"
+
+#. Plugin Name of the plugin
+msgid "Carousel Upsells and Related Product for Woocommerce"
+msgstr "Carousel Upsells and Related Product for Woocommerce"

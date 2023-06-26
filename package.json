@@ -1,0 +1,31 @@
+{
+  "name": "malik-brand.com",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000a\u0000l\u0000i\u0000k\u0000-\u0000b\u0000r\u0000a\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ignale/malik-brand.git"
+  },
+  "author": "Alexey Ignatev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ignale/malik-brand/issues"
+  },
+  "homepage": "https://github.com/Ignale/malik-brand#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.6.0",
+    "formik": "^2.4.2"
+  }
+}
